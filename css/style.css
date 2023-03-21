@@ -1,11 +1,14 @@
 
 body {
-  background-color: grey;
+  background-image: url("../images/background.jpg");
+  background-repeat: repeat;
+  background-size:cover;
   font-family: Verdana, sans-serif;
+  color: white; /* add background color to see text better */
 }
 
 header {
-  background-color: rgb(50,50,50);
+  background-color: rgb(150,150,150);
   text-align: right;
   padding: 15px;
   color: white;
@@ -20,7 +23,16 @@ header #homeLink {
   float: left;
 }
 
+.car {
+  text-align: center;
+  width: 100%;
+}
+
 .car img{
   border: 2.5px solid;
   border-color: rgb(90, 90, 90);
+}
+
+.carPictures {
+  text-align: center;
 }
