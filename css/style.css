@@ -24,15 +24,30 @@ header #homeLink {
 }
 
 .car {
+  display: ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car h3 {
   text-align: center;
-  width: 100%;
 }
 
 .car img{
   border: 2.5px solid;
   border-color: rgb(90, 90, 90);
+  max-width: 100%;
+  height: auto;
 }
 
 .carPictures {
-  text-align: center;
+  width: 30%;
+  background-color: #f2f2f2;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+#video {
+  width: 100%;
+  margin-top: 20px;
 }
