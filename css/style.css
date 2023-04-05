@@ -9,6 +9,7 @@ body {
 header {
   background-color: rgb(150,150,150);
   text-align: center;
+  margin: none;
   float: none;
   padding: 15px;
   color: white;
