@@ -8,7 +8,8 @@ body {
 
 header {
   background-color: rgb(150,150,150);
-  text-align: right;
+  text-align: center;
+  float: center;
   padding: 15px;
   color: white;
 }
@@ -16,10 +17,12 @@ header {
 header a {
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 
 header #homeLink {
-  float: left;
+  float: center;
+  text-decoration: none;
 }
 
 .background {
@@ -30,6 +33,7 @@ header #homeLink {
   margin-right: auto;
   margin-top: 30px;
   padding: 20px;
+  overflow: hidden;
 }
 
 .car {
@@ -53,4 +57,10 @@ header #homeLink {
 #video {
   width: 100%;
   margin-top: 50px;
+}
+
+.background #cyberpic{
+  float: right;
+  margin-top: 50px;
+  width: 50%;  
 }
