@@ -9,7 +9,7 @@ body {
 header {
   background-color: rgb(150,150,150);
   text-align: center;
-  float: center;
+  float: none;
   padding: 15px;
   color: white;
 }
@@ -21,7 +21,7 @@ header a {
 }
 
 header #homeLink {
-  float: center;
+  float: none;
   text-decoration: none;
 }
 
